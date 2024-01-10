@@ -22,3 +22,8 @@ Usamos esse tipo de abordagem para simular situações de pico de requisições,
 
 ### Breakpoint test ###
 Usamos esse tipo de abordagem para entender quando a aplicação começa a retornar falhas para o volume de requisições simultâneas. Com esse tipo de teste podemos entender os limites da aplicação e também conseguimos planejar ações que ocorrem próximas, ou a partir desse limite.
+
+### Soak test ###
+Usamos esse tipo de abordagem para verificar o comportamento da apliacação mediante um volume constante de requisições por um longo tempo. Assim conseguimos identificar as falhas ocasionadas pelo longo tempo de exposição que a aplicação teve.
+
+> Esse tipo de teste lembra bastante o teste de carga (Load), mas é usado para entender se existe e quais seriam os problemas em um caso de exposição muito longa da aplicação a um volume de requisições simultâneas.
